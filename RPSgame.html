@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rpsStyle.css">
+    <link rel="icon" href="pexels-james-wheeler-417074.jpg">
+</head>
+<body>
+
+    <div class="container">
+        <div id="heading"><h1>Rock-Paper-Scissors</h1></div>
+        <div class="choices">
+            <button class="buttons" id="btn1" onclick="playGame('rock')">🥊</button>
+            <button class="buttons" id="btn2" onclick="playGame('paper')">🧻</button>
+            <button class="buttons" id="btn3" onclick="playGame('scissor')">✂</button>
+        </div>
+        <br><br>
+        <div class="results" id="playerChoice">Player's Choice:</div>
+        <div class="results" id="computerChoice">Computer's Choice:</div>
+        <br><br>
+        <div class="results" id="resultLine">
+        </div>
+
+    </div>
+    <script src="rpsScript.js"></script>
+</body>
+</html>
