@@ -25,7 +25,7 @@ function playGame(choice)
         }
     }
 
-    playerChoice.textContent = "Player's Choice:" + `${choice}`;
-    computerChoice.textContent = "Computer's Choice:" + `${computerChooses}`;
+    playerChoice.textContent = "Player:" + `${choice}`;
+    computerChoice.textContent = "Computer:" + `${computerChooses}`;
     resultLine.textContent = `${result}`;
 }
